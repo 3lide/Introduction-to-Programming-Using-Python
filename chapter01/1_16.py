@@ -1,0 +1,23 @@
+import turtle
+
+#绘制四个圆
+turtle.setup(1000, 1000)
+turtle.penup()
+turtle.pensize(5)
+turtle.goto(-200, 0)
+turtle.pendown()
+turtle.circle(200)
+turtle.penup()
+turtle.goto(-200, -400)
+turtle.pendown()
+turtle.circle(200)
+turtle.penup()
+turtle.goto(200, 0)
+turtle.pendown()
+turtle.circle(200)
+turtle.penup()
+turtle.goto(200, -400)
+turtle.pendown()
+turtle.circle(200)
+turtle.turtlesize(3)
+turtle.done()
